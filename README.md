@@ -5,54 +5,34 @@
 **Academic year:** 2026–27
 
 ## Group details
+- Group number: [Add group number]
+- Member 1: [Name and ID]
+- Member 2: [Name and ID]
+- Member 3: [Name and ID]
 
-- Group number: **[Add group number]**
-- Student 1: **[Full name — roll number]**
-- Student 2: **[Full name — roll number]**
-- Student 3: **[Full name — roll number]**
-- Faculty guide: **[Add guide name]**
+## Case study
+We investigate ESPHome issue [#16254](https://github.com/esphome/esphome/issues/16254), a regression in nested/dictionary-valued YAML substitutions reported against ESPHome 2026.4.0 and later. The issue was linked to [PR #16273](https://github.com/esphome/esphome/pull/16273), which added a resolver fix and a regression-test fixture and was merged on 6 May 2026.
 
-## Project selected
+## Important status note
+This repository is a student case-study repository, not the upstream ESPHome repository. The issue and PR were authored by upstream contributors. Do not present PR #16273 as your own contribution. The public issue documents the original reporter's reproduction; your group must still run the reproduction steps and capture its own output before writing “we reproduced it.”
 
-**ESPHome** is an open-source project for creating firmware for microcontrollers and integrating devices with home automation systems.
+## Documents
+- `docs/01-project-and-repository.md` — project/repository overview
+- `docs/02-issue-investigation.md` — issue analysis
+- `docs/03-bug-reproduction.md` — reproducible test plan and evidence log
+- `docs/04-contribution-and-pr-analysis.md` — fix, tests, PR workflow
+- `docs/05-report-outline.md` — report structure and viva questions
+- `evidence/README.md` — screenshot/log checklist
+- `report/README.md` — report assembly notes
 
-- Official repository: https://github.com/esphome/esphome
-- Official website: https://esphome.io/
-- Developer documentation: https://developers.esphome.io/
+## Primary sources
+1. ESPHome source repository: https://github.com/esphome/esphome
+2. Issue #16254: https://github.com/esphome/esphome/issues/16254
+3. Fix PR #16273: https://github.com/esphome/esphome/pull/16273
+4. ESPHome developer contribution guide: https://developers.esphome.io/contributing/code/
+5. ESPHome submission workflow: https://developers.esphome.io/contributing/submitting-your-work/
+6. ESPHome development environment: https://developers.esphome.io/contributing/development-environment/
 
-## Case-study focus
-
-- Issue: https://github.com/esphome/esphome/issues/16254
-- Pull Request: https://github.com/esphome/esphome/pull/16273
-
-These links are the starting point for our investigation. We must inspect the issue and PR directly, record what we observe, and perform our own reproduction attempt before writing conclusions.
-
-## Repository contents
-
-- `docs/` — investigation notes and report outline
-- `evidence/` — screenshots, logs and test evidence collected by the group
-- `report/` — final report materials
-
-## Current status
-
-This repository is a **case-study workspace/template**. It does not contain a claimed bug fix, successful reproduction, or original contribution yet. Update the status only after the group has performed and documented the work.
-
-## Work plan
-
-1. Fill in the group details.
-2. Read the issue and related PR.
-3. Set up the ESPHome development environment following the official guide.
-4. Attempt to reproduce the issue on the affected version and compare with a fixed version if feasible.
-5. Save unedited screenshots and logs in `evidence/`.
-6. Analyze the source changes and tests in the PR.
-7. Identify a small, genuine improvement only after understanding the code and tests.
-8. Complete the report and presentation with honest results and references.
-
-## Official development setup
-
-Follow the current instructions here rather than relying on stale installation commands:
-https://developers.esphome.io/contributing/development-environment/
-
-## Evidence and integrity
-
-Do not report a reproduction as successful unless you ran it. If it fails, record the environment, exact steps, output and reason you believe it failed. Do not claim another developer's PR as your own contribution.
+## Status legend
+- **Verified from upstream source:** supported by the linked public issue, PR, or official developer documentation.
+- **Student verification required:** must be completed and evidenced by the group on its own computer.

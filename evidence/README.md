@@ -1,14 +1,13 @@
-# Evidence folder
+# Evidence checklist
 
-Save genuine screenshots and logs here. Use descriptive filenames, for example:
+Place only genuine evidence from your group's work here. Suggested filenames:
 
 - `01-repository-overview.png`
 - `02-issue-16254.png`
-- `03-environment-versions.txt`
-- `04-reproduction-command.png`
-- `05-reproduction-output.txt`
-- `06-pr-16273-diff.png`
-- `07-pr-checks-and-review.png`
-- `08-our-test-results.txt`
+- `03-pr-16273-overview.png`
+- `04-pr-changed-files.png`
+- `05-test-config.png`
+- `06-affected-version-output.png`
+- `07-fixed-version-output.png`
 
-Only add evidence that your group actually collected. Do not fabricate screenshots or alter logs in a way that changes their meaning. Remove credentials, tokens, Wi-Fi passwords and other secrets before committing.
+Screenshots of the upstream GitHub issue/PR support the repository investigation. Screenshots of your own terminal support local reproduction. Do not present the upstream reporter's log as if your group generated it. If a local test was not completed, say so in the report.
